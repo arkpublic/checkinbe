@@ -1,0 +1,13 @@
+
+*.v2
+restaurantapi/.vs/restaurantapi/v16/.suo
+restaurantapi/RestaurantModels/obj/Debug/netcoreapp3.1/RestaurantModels.AssemblyInfo.cs
+restaurantapi/RestaurantModels/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+restaurantapi/RestaurantModels/obj/Debug/netcoreapp3.1/RestaurantModels.AssemblyInfoInputs.cache
+restaurantapi/RestaurantModels/obj/Debug/netcoreapp3.1/RestaurantModels.GeneratedMSBuildEditorConfig.editorconfig
+restaurantapi/RestaurantModels/RestaurantModels.csproj
+restaurantapi/RestaurantsDataBaseScripts/obj/Debug/netcoreapp3.1/RestaurantsDataBaseScripts.AssemblyInfo.cs
+restaurantapi/RestaurantModels/RestaurantModels.csproj
+restaurantapi/RestaurantsDataBaseScripts/obj/Debug/netcoreapp3.1/RestaurantsDataBaseScripts.AssemblyInfoInputs.cache
+restaurantapi/RestaurantsDataBaseScripts/obj/Debug/netcoreapp3.1/RestaurantsDataBaseScripts.GeneratedMSBuildEditorConfig.editorconfig
+restaurantapi/RestaurantModels/RestaurantModels.csproj
