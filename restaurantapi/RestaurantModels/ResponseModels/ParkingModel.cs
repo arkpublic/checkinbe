@@ -10,8 +10,5 @@ namespace RestaurantModels.ResponseModels
         public ParkingPlacesModel Places { get; set; }
     }
 
-    public class ParkingPlacesModel { 
-        public string Location { get; set; }
-        public bool Available { get; set; }
-    }
+   
 }

@@ -3,12 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace RestaurantModels.Builders
+namespace RestaurantModels.ResponseModels
 {
     public class GenericResponseModel
     {
-        public EnumResponseTypes ResponseType { get; set; }
-        public Object ResponseObject { get; set; }
+        public EnumResponseType ResponseType { get; set; }
         public string Message { get; set; }
+        public object Object { get; set; }
     }
 }
