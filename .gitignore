@@ -38,6 +38,10 @@ restaurantapi/RestaurantsDataBaseScripts/obj/RestaurantsDataBaseScripts.csproj.n
 restaurantapi/.vs/restaurantapi/xs/project-cache/*
 restaurantapi/.vs/restaurantapi/xs/UserPrefs.xml
 restaurantapi/RestaurantsDataBaseScripts/obj/Debug/netcoreapp3.1/RestaurantsDataBaseScripts.csproj.AssemblyReference.cache
+bin/
+obj/
+Debug/
+Release/
 # General
 .DS_Store
 .AppleDouble
