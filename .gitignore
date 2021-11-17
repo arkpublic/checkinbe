@@ -35,3 +35,32 @@ restaurantapi/RestaurantsDataBaseScripts/obj/project.nuget.cache
 restaurantapi/RestaurantsDataBaseScripts/obj/RestaurantsDataBaseScripts.csproj.nuget.dgspec.json
 restaurantapi/RestaurantsDataBaseScripts/obj/RestaurantsDataBaseScripts.csproj.nuget.g.props
 restaurantapi/RestaurantsDataBaseScripts/obj/RestaurantsDataBaseScripts.csproj.nuget.g.targets
+restaurantapi/.vs/restaurantapi/xs/project-cache/*
+restaurantapi/.vs/restaurantapi/xs/UserPrefs.xml
+restaurantapi/RestaurantsDataBaseScripts/obj/Debug/netcoreapp3.1/RestaurantsDataBaseScripts.csproj.AssemblyReference.cache
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
