@@ -20,8 +20,7 @@ namespace RestaurantModels.TableModels
 		public string User_Name { get; set; }
 		public string User_Phone { get; set; }
 		public string User_Tastes { get; set; }
-		// using byte as recommended equivalent of tinyint, bool possible
-		public byte User_Notifications { get; set; }
+		public bool User_Notifications { get; set; }
 		public int User_Visibility { get; set; }
     }
 }

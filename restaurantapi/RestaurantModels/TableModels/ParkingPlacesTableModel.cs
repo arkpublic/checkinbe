@@ -15,8 +15,7 @@ namespace RestaurantModels.TableModels
         public int IDParkingPlaces { get; set; }
         public int Parking_Place_ID { get; set; }
         public string Parking_Location { get; set; }
-        // using byte as recommended equivalent of tinyint, bool possible
-        public byte Parking_Available { get; set; }
+        public bool Parking_Available { get; set; }
 
         #region Foreign Key Tables
         public ParkingTableModel Parking_Place_IDFK { get; set; }

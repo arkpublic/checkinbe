@@ -13,8 +13,7 @@ namespace RestaurantModels.TableModels
         #endregion
         public int Social_Media_ID { get; set; }
         public int Social_Media { get; set; }
-        // using byte as recommended equivalent of tinyint, bool possible
-        public byte Social_Media_Active { get; set; }
+        public bool Social_Media_Active { get; set; }
         public string Social_Media_URL { get; set; }
     }
 }
