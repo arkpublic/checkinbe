@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RestaurantModels.Builders;
 using RestaurantModels.Enums;
 using RestaurantModels.ResponseModels;
 using System;
@@ -19,8 +18,8 @@ namespace restaurantapi.Controllers
         {
             return new GenericResponseModel() {
                 Message = "Success",
-                ResponseType = EnumResponseTypes.Success,
-                ResponseObject = new UsersModel () {
+                ResponseType = EnumResponseType.success,
+                Object = new UsersModel () {
                     IdUser = "1",
                     Name = "Juan",
                     Phone = "664 123 44 55",

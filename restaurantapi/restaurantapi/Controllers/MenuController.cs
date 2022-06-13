@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RestaurantModels.Builders;
 using RestaurantModels.Enums;
 using RestaurantModels.ResponseModels;
 using System;
@@ -18,8 +17,8 @@ namespace restaurantapi.Controllers
         {
             return new GenericResponseModel() {
                 Message = "Success",
-                ResponseType = EnumResponseTypes.Success,
-                ResponseObject = new FoodModel() {
+                ResponseType = EnumResponseType.success,
+                Object = new FoodModel() {
                     FoodId = "a113",
                     Ingredients = new List<string>() { "Carne molida suprema", "tomate", "papa", "zanahoria" },
                     Picture = new List<string>() { "img" },
@@ -36,8 +35,8 @@ namespace restaurantapi.Controllers
             return new GenericResponseModel()
             {
                 Message = "Success,",
-                ResponseType = EnumResponseTypes.Success,
-                ResponseObject = new MenuModel() {
+                ResponseType = EnumResponseType.success,
+                Object = new MenuModel() {
                     Dishes = new List<FoodModel>(){},
                     FoodType = EnumFoodType.Comida
                     
