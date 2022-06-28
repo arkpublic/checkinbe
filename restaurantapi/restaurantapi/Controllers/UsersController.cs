@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RestaurantManager.Interfaces;
 using RestaurantModels.Enums;
 using RestaurantModels.ResponseModels;
 using System;
@@ -12,8 +13,9 @@ namespace restaurantapi.Controllers
     [Route("users")]
     public class UsersController:ControllerBase
     {
-        [HttpGet]
+        private IUserServices _userServices;
 
+        [HttpGet]
         public GenericResponseModel GetUsers()
         {
             return new GenericResponseModel() {
@@ -31,8 +33,16 @@ namespace restaurantapi.Controllers
                 }
 
             };
-        
         }
 
+        /// <summary>
+        /// Get user authentication status
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("getUserType")]
+        public async Task<GenericResponseModel> GetUserTypeAsync(string token) {
+            return await _userServices.getUserAuthenticationStatus(token);
+        }
     }
 }
