@@ -1,0 +1,551 @@
+﻿++Solution 'restaurantapi' ‎(7 of 7 projects)
+++Script Documents
+++primordials
+++domexception
+++messageport
+++loaders
+++node
+++errors
+++timers
+++async_hooks
+++promise_hooks
+++validators
+++util
+++types
+++linkedlist
+++priority_queue
+++inspect
+++assert
+++debuglog
+++node:events
+++node:buffer
+++buffer
+++blob
+++encoding
+++js_transferable
+++per_thread
+++handle_process_exit
+++task_queues
+++promises
+++fixed_queue
+++node:async_hooks
+++constructor
+++inspector
+++url
+++querystring
+++node:path
+++node:querystring
+++abort_controller
+++event_target
+++node:util
+++utils
+++node:timers
+++io
+++node:stream
+++operators
+++end-of-stream
+++compose
+++pipeline
+++destroy
+++duplex
+++readable
+++legacy
+++add-abort-signal
+++buffer_list
+++state
+++node:string_decoder
+++from
+++transform
+++writable
+++performance_entry
+++passthrough
+++observe
+++usertiming
+++nodetiming
+++performance
+++event_loop_utilization
+++timerify
+++histogram
+++event_loop_delay
+++execution
+++warning
+++node:fs
+++dir
+++watchers
+++read_file_context
+++node:v8
+++heap_utils
+++stream_base_commons
+++node:vm
+++node:url
+++options
+++is_main_thread
+++signal
+++does_own_process_state
+++run_main_module
+++pre_execution
+++inspector_async_hook
+++report
+++source_map_cache
+++iterable_weak_map
+++helpers
+++loader
+++package_json_reader
+++esm_loader
+++module_map
+++module_job
+++resolve
+++get_format
+++fetch_module
+++node:net
+++net
+++dtrace
+++blocklist
+++socketaddress
+++formats
+++initialize_import_meta
+++load
+++get_source
+++rimraf
+++translators
+++module
+++create_dynamic_module
+++run_main
+++VM127
+++app.js
+++index.js
+++node.js
+++node:tty
+++tty
+++debug.js
+++express.js
+++VM139
+++application.js
+++route.js
+++array-flatten.js
+++layer.js
+++node:http
+++node:_http_agent
+++node:_http_client
+++node:_http_common
+++freelist
+++node:_http_incoming
+++node:_http_outgoing
+++http
+++node:_http_server
+++node:diagnostics_channel
+++init.js
+++query.js
+++stringify.js
+++shams.js
+++implementation.js
+++callbound.js
+++util.inspect.js
+++utils.js
+++formats.js
+++parse.js
+++view.js
+++streams
+++inherits.js
+++node:zlib
+++node:crypto
+++random
+++pbkdf2
+++hashnames
+++scrypt
+++hkdf
+++keys
+++keygen
+++diffiehellman
+++cipher
+++lazy_transform
+++sig
+++hash
+++x509
+++certificate
+++webcrypto
+++mime.js
+++VM220
+++VM221
+++VM222
+++VM223
+++VM224
+++VM225
+++ipaddr.js
+++VM229
+++VM230
+++VM231
+++request.js
+++charset.js
+++encoding.js
+++language.js
+++mediatype.js
+++VM243
+++VM244
+++VM245
+++VM246
+++response.js
+++VM251
+++json.js
+++read.js
+++safer.js
+++bom-handling.js
+++streams.js
+++extend-node.js
+++raw.js
+++text.js
+++urlencoded.js
+++users.js
+++node:cluster
+++primary
+++node:child_process
+++child_process
+++node:dgram
+++dgram
+++socket_list
+++round_robin_handle
+++shared_handle
+++worker
+++RestaurantCrm.App
+++npm
+++accepts@1.3.8 (not listed in package.json)
+++acorn@4.0.13 (not listed in package.json)
+++acorn-globals@3.1.0 (not listed in package.json)
+++align-text@0.1.4 (not listed in package.json)
+++array-flatten@1.1.1 (not listed in package.json)
+++asap@2.0.6 (not listed in package.json)
+++babel-runtime@6.26.0 (not listed in package.json)
+++babel-types@6.26.0 (not listed in package.json)
+++babylon@6.18.0 (not listed in package.json)
+++basic-auth@2.0.1 (not listed in package.json)
+++body-parser@1.20.0
+++bytes@3.1.2 (not listed in package.json)
+++call-bind@1.0.2 (not listed in package.json)
+++camelcase@1.2.1 (not listed in package.json)
+++center-align@0.1.3 (not listed in package.json)
+++character-parser@2.2.0 (not listed in package.json)
+++clean-css@4.2.4 (not listed in package.json)
+++cliui@2.1.0 (not listed in package.json)
+++constantinople@3.1.2 (not listed in package.json)
+++content-disposition@0.5.4 (not listed in package.json)
+++content-type@1.0.4 (not listed in package.json)
+++cookie@0.4.1 (not listed in package.json)
+++cookie-parser@1.4.6
+++cookie-signature@1.0.6 (not listed in package.json)
+++core-js@2.6.12 (not listed in package.json)
+++debug@2.6.9
+++decamelize@1.2.0 (not listed in package.json)
+++depd@2.0.0 (not listed in package.json)
+++destroy@1.2.0 (not listed in package.json)
+++doctypes@1.1.0 (not listed in package.json)
+++ee-first@1.1.1 (not listed in package.json)
+++encodeurl@1.0.2 (not listed in package.json)
+++escape-html@1.0.3 (not listed in package.json)
+++esutils@2.0.3 (not listed in package.json)
+++etag@1.8.1 (not listed in package.json)
+++express@4.18.1
+++finalhandler@1.2.0 (not listed in package.json)
+++forwarded@0.2.0 (not listed in package.json)
+++fresh@0.5.2 (not listed in package.json)
+++function-bind@1.1.1 (not listed in package.json)
+++get-intrinsic@1.1.2 (not listed in package.json)
+++has@1.0.3 (not listed in package.json)
+++has-symbols@1.0.3 (not listed in package.json)
+++has-tostringtag@1.0.0 (not listed in package.json)
+++http-errors@2.0.0 (not listed in package.json)
+++iconv-lite@0.4.24 (not listed in package.json)
+++inherits@2.0.4 (not listed in package.json)
+++ipaddr.js@1.9.1 (not listed in package.json)
+++is-buffer@1.1.6 (not listed in package.json)
+++is-core-module@2.9.0 (not listed in package.json)
+++is-expression@3.0.0 (not listed in package.json)
+++is-promise@2.2.2 (not listed in package.json)
+++is-regex@1.1.4 (not listed in package.json)
+++js-stringify@1.0.2 (not listed in package.json)
+++jstransformer@1.0.0 (not listed in package.json)
+++kind-of@3.2.2 (not listed in package.json)
+++lazy-cache@1.0.4 (not listed in package.json)
+++lodash@4.17.21 (not listed in package.json)
+++longest@1.0.1 (not listed in package.json)
+++media-typer@0.3.0 (not listed in package.json)
+++merge-descriptors@1.0.1 (not listed in package.json)
+++methods@1.1.2 (not listed in package.json)
+++mime@1.6.0 (not listed in package.json)
+++mime-db@1.52.0 (not listed in package.json)
+++mime-types@2.1.35 (not listed in package.json)
+++morgan@1.10.0
+++ms@2.0.0 (not listed in package.json)
+++negotiator@0.6.3 (not listed in package.json)
+++object-assign@4.1.1 (not listed in package.json)
+++object-inspect@1.12.2 (not listed in package.json)
+++on-finished@2.4.1 (not listed in package.json)
+++on-headers@1.0.2 (not listed in package.json)
+++parseurl@1.3.3 (not listed in package.json)
+++path-parse@1.0.7 (not listed in package.json)
+++path-to-regexp@0.1.7 (not listed in package.json)
+++promise@7.3.1 (not listed in package.json)
+++proxy-addr@2.0.7 (not listed in package.json)
+++pug@2.0.4
+++pug-attrs@2.0.4 (not listed in package.json)
+++pug-code-gen@2.0.3 (not listed in package.json)
+++pug-error@1.3.3 (not listed in package.json)
+++pug-filters@3.1.1 (not listed in package.json)
+++pug-lexer@4.1.0 (not listed in package.json)
+++pug-linker@3.0.6 (not listed in package.json)
+++pug-load@2.0.12 (not listed in package.json)
+++pug-parser@5.0.1 (not listed in package.json)
+++pug-runtime@2.0.5 (not listed in package.json)
+++pug-strip-comments@1.0.4 (not listed in package.json)
+++pug-walk@1.1.8 (not listed in package.json)
+++qs@6.10.3 (not listed in package.json)
+++range-parser@1.2.1 (not listed in package.json)
+++raw-body@2.5.1 (not listed in package.json)
+++regenerator-runtime@0.11.1 (not listed in package.json)
+++repeat-string@1.6.1 (not listed in package.json)
+++resolve@1.22.1 (not listed in package.json)
+++right-align@0.1.3 (not listed in package.json)
+++safe-buffer@5.2.1 (not listed in package.json)
+++safer-buffer@2.1.2 (not listed in package.json)
+++send@0.18.0 (not listed in package.json)
+++serve-favicon@2.5.0
+++serve-static@1.15.0 (not listed in package.json)
+++setprototypeof@1.2.0 (not listed in package.json)
+++side-channel@1.0.4 (not listed in package.json)
+++source-map@0.7.4
+++statuses@2.0.1 (not listed in package.json)
+++supports-preserve-symlinks-flag@1.0.0 (not listed in package.json)
+++to-fast-properties@1.0.3 (not listed in package.json)
+++toidentifier@1.0.1 (not listed in package.json)
+++token-stream@0.0.1 (not listed in package.json)
+++type-is@1.6.18 (not listed in package.json)
+++uglify-js@2.8.29 (not listed in package.json)
+++uglify-to-browserify@1.0.2 (not listed in package.json)
+++unpipe@1.0.0 (not listed in package.json)
+++utils-merge@1.0.1 (not listed in package.json)
+++vary@1.1.2 (not listed in package.json)
+++void-elements@2.0.1 (not listed in package.json)
+++window-size@0.1.0 (not listed in package.json)
+++with@5.1.1 (not listed in package.json)
+++wordwrap@0.0.2 (not listed in package.json)
+++yargs@3.10.0 (not listed in package.json)
+++public
+++images
+++javascripts
+++stylesheets
+++routes
+++views
+++error.pug
+++index.pug
+++layout.pug
+++package.json
+++README.md
+++main.css
+++restaurantapi
+i:{00000000-0000-0000-0000-000000000000}:restaurantapi
+++Connected Services 
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:>886
+++Dependencies
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:>885
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:>328
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:>329
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:>813
+i:{db5bd948-ec15-4e37-9e9b-c96ea595287b}:>811
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:>812
+++Properties
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\properties\
+++Controllers
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\controllers\
+++MenuController.cs
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\controllers\menucontroller.cs
+++RestaurantController.cs
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\controllers\restaurantcontroller.cs
+++UsersController.cs
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\controllers\userscontroller.cs
+++appsettings.json
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\appsettings.json
+++Dockerfile
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\dockerfile
+++libman.json
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\libman.json
+++Program.cs
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\program.cs
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\program.cs
+++Startup.cs
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\startup.cs
+++No service dependencies discovered
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:>887
+++Analyzers
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:analyzers
+++Frameworks
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:frameworks
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:frameworks
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:frameworks
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:frameworks
+i:{db5bd948-ec15-4e37-9e9b-c96ea595287b}:frameworks
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:frameworks
+++Packages
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:packages
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:packages
+i:{db5bd948-ec15-4e37-9e9b-c96ea595287b}:packages
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:packages
+++Projects
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:projects
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:projects
+i:{db5bd948-ec15-4e37-9e9b-c96ea595287b}:projects
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:projects
+++launchSettings.json
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\properties\launchsettings.json
+++appsettings.Development.json
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\appsettings.development.json
+++.dockerignore
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\.dockerignore
+++Microsoft.AspNetCore.Analyzers
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantapi\microsoft.netcore.app
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\microsoft.netcore.app
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\microsoft.netcore.app
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\microsoft.netcore.app
+i:{db5bd948-ec15-4e37-9e9b-c96ea595287b}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantprovider\microsoft.netcore.app
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantprovider.test\microsoft.netcore.app
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.10.9)
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:>922
+++Swashbuckle.AspNetCore (6.3.1)
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:>921
+++RestaurantManager
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\bin\debug\netcoreapp3.1\restaurantmanager.dll
+i:{00000000-0000-0000-0000-000000000000}:RestaurantManager
+++RestaurantModels
+i:{754b8f1c-bc20-4df2-9cd0-7f0fe8a7c46c}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\bin\debug\netcoreapp3.1\restaurantmodels.dll
+i:{00000000-0000-0000-0000-000000000000}:RestaurantModels
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\bin\debug\netcoreapp3.1\restaurantmodels.dll
+i:{db5bd948-ec15-4e37-9e9b-c96ea595287b}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\bin\debug\netcoreapp3.1\restaurantmodels.dll
+++RestaurantsDataBaseScripts
+i:{00000000-0000-0000-0000-000000000000}:RestaurantsDataBaseScripts
+++Schemas
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\
+++001-restaurant.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\001-restaurant.sql
+++002-comments.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\002-comments.sql
+++003-food.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\003-food.sql
+++004-carousel.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\004-carousel.sql
+++005-menu.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\005-menu.sql
+++006-parking.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\006-parking.sql
+++007-parkingPlaces.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\007-parkingplaces.sql
+++008-socialMedia.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\008-socialmedia.sql
+++009-user.sql
+i:{2bd59dc0-b2cb-4275-8773-cbbf77cefc79}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantsdatabasescripts\schemas\009-user.sql
+++Interfaces
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\interfaces\
+++Services
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\services\
+++RestaurantServices.cs
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\services\restaurantservices.cs
+++UserServices.cs
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\services\userservices.cs
+++IFoodService.cs
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\interfaces\ifoodservice.cs
+++IRestaurantServices.cs
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\interfaces\irestaurantservices.cs
+++IUserServices.cs
+i:{d238d0a6-141f-4164-8725-bf71f0ab5242}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmanager\interfaces\iuserservices.cs
+++RestaurantProvider
+i:{00000000-0000-0000-0000-000000000000}:RestaurantProvider
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantprovider\bin\debug\netcoreapp3.1\restaurantprovider.dll
+++Connection.cs
+i:{db5bd948-ec15-4e37-9e9b-c96ea595287b}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantprovider\connection.cs
+++MySqlConnector (2.1.10)
+i:{db5bd948-ec15-4e37-9e9b-c96ea595287b}:>908
+++RestaurantProvider.Test
+i:{00000000-0000-0000-0000-000000000000}:RestaurantProvider.Test
+++UnitTest1.cs
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantprovider.test\unittest1.cs
+++coverlet.collector (3.1.0)
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:>907
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:>902
+++NUnit (3.13.2)
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:>904
+++NUnit3TestAdapter (4.0.0)
+i:{c4b61f24-1b2a-43a3-8f80-6c069eb47bcc}:>905
+++Enums
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\enums\
+++ResponseModels
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\
+++SetupModels
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\setupmodels\
+++TableModels
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\
+++EnumFoodType.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\enums\enumfoodtype.cs
+++EnumResponseType.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\enums\enumresponsetype.cs
+++EnumSocialMediaTypes.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\enums\enumsocialmediatypes.cs
+++CommentsModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\commentsmodel.cs
+++FoodModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\foodmodel.cs
+++GenericResponseModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\genericresponsemodel.cs
+++GeolocationModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\geolocationmodel.cs
+++ImagesCarouselModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\imagescarouselmodel.cs
+++MenuModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\menumodel.cs
+++ParkingModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\parkingmodel.cs
+++ParkingPlacesModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\parkingplacesmodel.cs
+++RestaurantModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\restaurantmodel.cs
+++SocialMediaModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\socialmediamodel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\socialmediamodel.cs
+++UsersModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\responsemodels\usersmodel.cs
+++DatabaseConnectionModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\setupmodels\databaseconnectionmodel.cs
+++CarouselTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\carouseltablemodel.cs
+++CommentsTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\commentstablemodel.cs
+++FoodTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\foodtablemodel.cs
+++GeolocationTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\geolocationtablemodel.cs
+++MenuTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\menutablemodel.cs
+++ParkingPlacesTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\parkingplacestablemodel.cs
+++ParkingTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\parkingtablemodel.cs
+++RestaurantTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\restauranttablemodel.cs
+++UsersTableModel.cs
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:d:\workspace\restaurants\restaurantapi\restaurantapi\restaurantmodels\tablemodels\userstablemodel.cs
+++Microsoft.AspNetCore.Mvc.Core (2.2.5)
+i:{62208496-9f4e-4742-ab6c-66d24714b6ea}:>901
+++body-parser@1.20.0 (not listed in package.json)
+++http-errors@2.0.0
+++jade (missing)
+++pug@2.0.4 (not listed in package.json)
+++serve-favicon@2.5.0 (not listed in package.json)
+++source-map@0.7.4 (not listed in package.json)
+++RestaurantCrm.App (unloaded)
+++Solution 'restaurantapi' ‎(6 of 7 projects)
+i:{00000000-0000-0000-0000-000000000000}:restaurantapi.sln
