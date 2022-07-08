@@ -42,9 +42,13 @@
     <Folder Include="src\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\components\" />
+    <Folder Include="src\components\shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="babel.config.js" />
+    <Content Include="src\components\shared\CustomHeader.vue">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="src\main.js" />
   </ItemGroup>
   <PropertyGroup>
