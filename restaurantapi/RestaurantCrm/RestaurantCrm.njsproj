@@ -46,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="babel.config.js" />
+    <Content Include="src\components\Menus.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\Restaurant.vue">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="src\components\shared\CustomHeader.vue">
       <SubType>Code</SubType>
     </Content>
